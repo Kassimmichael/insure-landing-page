@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 16px;
+}
+
+ul li {
+  text-transform: uppercase;
+  list-style: none;
+}
+
+h1 {
+  font-family: 'DM Serif Display', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  padding: 2rem 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+}
+
+header nav ul li {
+  list-style: none;
+  margin-left: 30px;
+}
+
+header nav ul a {
+  color: hsl(273, 4%, 51%);
+}
+
+header nav ul a:hover {
+  color: hsl(256, 26%, 20%);
+  font-weight: bold;
+}
+
+header nav button {
+  margin-left: 2rem;
+  padding: 10px 24px;
+  background-color: transparent;
+  border-color: hsl(256, 26%, 20%);
+  color: hsl(256, 26%, 20%);
+  text-transform: uppercase;
+  cursor: pointer;
+  
+}
+
+header button:hover {
+  background-color: hsl(256, 26%, 20%);
+  color: #fff;
+  font-weight: bold;
+  border: none;
+}
+
+.intro {
+  background-color: hsl(256, 26%, 20%);
+  padding: 2rem 10%;
+  display: flex;
+  align-items: center;
+  background-image: url(./images/bg-pattern-intro-right-desktop.svg), url(./images/bg-pattern-intro-left-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: top right, left bottom;
+}
+
+.intro h1 {
+  font-size: 4.2em;
+  color: #fff;
+  font-family: sans-serif;
+  margin-top: 2em;
+}
+
+.intro p {
+  color: #fff;
+  font-family: 'DM Serif Dispaly', sans-serif;
+  margin-top: 1rem;
+  line-height: 1.5;
+}
+
+.intro button {
+  margin-top: 3em;
+  background-color: inherit;
+  border-color: #fff;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 7em;
+}
+
+.intro button:hover {
+  color: hsl(270, 9%, 17%);
+  background-color: #fff;
+  border: none;
+  font-weight: bold;
+}
+
+.intro img {
+  /* width: 100%; */
+  margin-top: 4rem;
+  margin-left: 1rem;
+  position: absolute;
+  right: 10%;
+  top: 20%;
+}
+
+.different {
+  margin-top: 15em;
+  padding: 2rem 10%;
+}
+
+.different h2 {
+  font-size: 4em;
+  color: hsl(270, 9%, 17%);
+  margin-bottom: 1.2em;
+}
+
+.different .grid-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.different h3 {
+  color: hsl(270, 9%, 17%);
+  margin-top: 2rem;
+  font-size: 25px;
+}
+
+.different p {
+  color: hsl(273, 4%, 51%);
+  margin-top: 1.2rem;
+  line-height: 1.5;
+  font-family: 'DM Serif Display', sans-serif;
+  font-size: 15px;
+}
+
+.find-out {
+  /* margin-top: 4em; */
+  background-color: hsl(256, 26%, 20%);
+  background-image: url(./images/bg-pattern-how-we-work-desktop.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+  margin: 6em 10%;
+  padding: 40px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.find-out h2 {
+  color: #fff;
+  font-size: 50px;
+}
+
+.find-out button {
+  background-color: inherit;
+  border-color: #fff;
+  padding: 12px 30px;
+  text-transform: uppercase;
+  color: #fff;
+  cursor: pointer;
+}
+
+.find-out button:hover {
+  background-color: #fff;
+  color: hsl(256, 26%, 20%);
+  border: none;
+  font-weight: bold;
+}
+
+footer {
+  background-color: hsl(0, 0%, 98%);
+  padding: 2rem 10%;
+  margin-bottom: 6rem;
+}
+
+footer .top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+footer .top .icon ul {
+  display: flex;
+  align-items: center;
+}
+
+footer .top .icon ul li {
+  margin-left: 20px;
+}
+
+footer .nav-links {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 10em;
+  font-family: 'Karla', sans-serif;
+  margin-top: 4rem;
+  font-size: 15px;
+  /* margin-bottom: 4rem; */
+}
+
+footer .nav-links h4 {
+  text-transform: uppercase;
+  color: hsl(273, 4%, 51%);
+  margin-bottom: 3rem;
+}
+
+footer .nav-links ul li {
+  margin-bottom: 1rem;
+}
+
+footer .nav-links ul li a {
+  color: hsl(256, 26%, 20%);
+  font-weight: bold;
+}
+
+footer .nav-links ul li:hover {
+  border-bottom: 1px solid hsl(256, 26%, 20%);
+}
+
+
+
+
+
+
